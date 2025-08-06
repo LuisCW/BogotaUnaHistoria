@@ -1,0 +1,289 @@
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  cursor: pointer; /* Añadido para indicar que la imagen es clicable */
+}
+
+.border {
+  border: 2px solid #ddd; /* Borde alrededor de la imagen */
+}
+.carousel-container {
+  max-width: 800px; /* Ajusta el ancho del contenedor según sea necesario */
+  margin: 0 auto; /* Centra el carrusel */
+}
+.carousel .img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.carousel .thumbs img {
+  height: 80px; /* Puedes ajustar la altura según lo necesites */
+  object-fit: cover; /* Esto asegura que la imagen llene el cuadro sin deformarse */
+  width: 100%; /* Asegura que la imagen ocupe todo el ancho disponible */
+}
+
+.img-container {
+  width: 100%;
+  height: 500px; /* Altura fija para todas las imágenes */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #f8f9fa; /* Fondo opcional */
+}
+
+.img-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Asegura que la imagen se ajuste al contenedor sin recortarse */
+}
+.social-icons a {
+  font-size: 24px; /* Tamaño del ícono */
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #d4d4d4; /* Color al pasar el mouse */
+}
+
+/* Language Selector Styles */
+.language-selector-modern {
+  display: flex;
+  background: rgba(255, 193, 7, 0.1);
+  border: 1px solid rgba(255, 193, 7, 0.3);
+  border-radius: 25px;
+  padding: 4px;
+  gap: 2px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.language-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 20px;
+  background: transparent;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.language-btn:hover {
+  background: rgba(255, 193, 7, 0.2);
+  transform: translateY(-1px);
+}
+
+.language-btn.active {
+  background: linear-gradient(135deg, #ffd700, #ffb700);
+  color: #000;
+  box-shadow: 0 2px 8px rgba(255, 215, 0, 0.3);
+}
+
+.flag-icon {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.lang-text {
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+  .language-selector-modern {
+    padding: 2px;
+  }
+  
+  .language-btn {
+    padding: 6px 8px;
+    gap: 4px;
+  }
+  
+  .flag-icon {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .lang-text {
+    font-size: 0.75rem;
+  }
+}
+/*selector de idiomas*/
+
+/* Estilos base */
+
+.bg-gray-700 {
+  background-color: #17421d;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.text-gray-400 {
+  color: #9ca3af;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+  border: none;
+  margin: 3px;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.transform {
+  transform: translateX(-50%);
+}
+
+.transition-all {
+  transition: all 0.3s ease;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.w-4 {
+  width: 0.875rem;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
+.w-1 {
+  width: 0.25rem;
+}
+
+.h-1 {
+  height: 0.25rem;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+.bg-blue-500 {
+  background-color: #3b82f6;
+}
+
+/* Hover states */
+.hover\:text-gray-200:hover {
+  color: #e5e7eb;
+}
+
+/* Object fit */
+.object-cover {
+  object-fit: cover;
+}
+.whatsapp-button {
+  position: fixed;
+  right: 20px;
+  z-index: 1000;
+}
+
+.whatsapp-button a {
+  background-color: #25d366;
+  color: white;
+  font-size: 30px;
+  padding: 15px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.whatsapp-button a:hover {
+  background-color: #20b954;
+}
+
+.popular-card {
+  background-color: #fff;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.popular-card:hover {
+  transform: translateY(-5px);
+}
+
+.popular-img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  max-height: 200px;
+}
+
+.custom-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 90%;
+  width: 600px;
+}
+
+.custom-overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.info-icons p {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+}
+
+.info-icons p svg {
+  margin-right: 8px;
+}
+
+
+
+
