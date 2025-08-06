@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Página principal -->
+  <url>
+    <loc>https://bogotaunahistoria.com/</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bogotaunahistoria.com/?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bogotaunahistoria.com/?lang=en"/>
+  </url>
+  
+  <!-- Sección de Recorridos -->
+  <url>
+    <loc>https://bogotaunahistoria.com/#recorridos</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Sección de Lugares -->
+  <url>
+    <loc>https://bogotaunahistoria.com/#lugares</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Sección de Historias -->
+  <url>
+    <loc>https://bogotaunahistoria.com/#historias</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Galería -->
+  <url>
+    <loc>https://bogotaunahistoria.com/#galeria</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Contacto -->
+  <url>
+    <loc>https://bogotaunahistoria.com/#contacto</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Lugares específicos -->
+  <url>
+    <loc>https://bogotaunahistoria.com/?lugar=catedral-primada</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://bogotaunahistoria.com/?lugar=monserrate</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://bogotaunahistoria.com/?lugar=museo-oro</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://bogotaunahistoria.com/?lugar=chorro-quevedo</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Historias específicas -->
+  <url>
+    <loc>https://bogotaunahistoria.com/?historia=iglesia-candelaria</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://bogotaunahistoria.com/?historia=noche-septembrina</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://bogotaunahistoria.com/?historia=espeluco-aguas</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+</urlset>
